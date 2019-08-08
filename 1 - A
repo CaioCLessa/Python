@@ -1,0 +1,36 @@
+"""
+a = float(input(''))
+b = float(input(''))
+c = float(input(''))
+d = float(input(''))
+"""
+
+a = 2
+b = 5
+c = 7
+d = 8
+
+
+a = 5
+print(f'Valor de a: {a}, Valor de b: {b}, Valor de c: {c} e Valor de d: {d}')
+#A = 5 , B = 5, C = 7, D = 8
+
+a += 9
+print(f'Valor de a: {a}, Valor de b: {b}, Valor de c: {c} e Valor de d: {d}')
+#A = 14 , B = 5, C = 7, D = 8
+
+b = a % 3 * 5
+print(f'Valor de a: {a}, Valor de b: {b}, Valor de c: {c} e Valor de d: {d}')
+#A = 14, B = 10, C = 7, D = 8
+
+c = (a + b) // 2;
+print(f'Valor de a: {a}, Valor de b: {b}, Valor de c: {c} e Valor de d: {d}')
+#A = 14, B = 10, C = 12, D = 8
+
+d += c
+print(f'Valor de a: {a}, Valor de b: {b}, Valor de c: {c} e Valor de d: {d}')
+#A = 14, B = 10, C = 12, D = 20
+
+d %= c
+print(f'Valor de a: {a}, Valor de b: {b}, Valor de c: {c} e Valor de d: {d}')
+#A = 14, B = 10, C = 12, D = 8
