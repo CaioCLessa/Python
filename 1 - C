@@ -1,0 +1,32 @@
+# TODO: type solution here
+"""
+a = float(input(''))
+b = float(input(''))
+c = float(input(''))
+d = float(input(''))
+"""
+a = 2
+b = 5
+c = 7
+d = 8
+
+
+a = -20
+print(f'Valor de a: {a}, Valor de b: {b}, Valor de c: {c} e Valor de d: {d}')
+#A = -20, B = 5, C = 7, D = 8
+
+a /= 4
+print(f'Valor de a: {a}, Valor de b: {b}, Valor de c: {c} e Valor de d: {d}')
+#A = -5, B = 5, C = 7, D = 8
+
+b = a * 5 % 6
+print(f'Valor de a: {a}, Valor de b: {b}, Valor de c: {c} e Valor de d: {d}')
+#A = -5, B = 5, C = 7, D = 8
+
+d -= c
+print(f'Valor de a: {a}, Valor de b: {b}, Valor de c: {c} e Valor de d: {d}')
+#A = -5, B = 5, C = 7, D = 1
+
+d -= 1
+print(f'Valor de a: {a}, Valor de b: {b}, Valor de c: {c} e Valor de d: {d}')
+#A = -5, B = 5, C = 7, D = 0
