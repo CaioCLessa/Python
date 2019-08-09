@@ -1,0 +1,4 @@
+altura = float(input())
+massa = float(input())
+imc = massa / altura ** 2
+print(imc)
