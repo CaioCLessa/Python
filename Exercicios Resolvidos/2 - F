@@ -1,0 +1,5 @@
+raio = float(input())
+pi = 3.14
+volumeEsfera = 4/3 * pi * (raio ** 3)
+
+print(f"O volume da esfera é: {volumeEsfera:.2f} unidade³")
