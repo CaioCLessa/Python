@@ -1,0 +1,7 @@
+raio = float(input())
+pi = 3.14
+area = pi * (raio ** 2)
+comprimento = 2 * pi * raio
+
+print(area)
+print(comprimento)
