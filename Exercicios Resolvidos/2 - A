@@ -1,0 +1,8 @@
+import math
+ladoB = float(input())
+ladoC = float(input())
+
+a = (ladoB ** 2 + ladoC ** 2)
+x = math.sqrt(a)
+
+print(x)
