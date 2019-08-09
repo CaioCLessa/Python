@@ -1,0 +1,12 @@
+salarioHora = float(input())
+horaTrabalhada = float(input())
+
+salarioBruto = salarioHora * horaTrabalhada
+inssPago = 
+sindicatoPago =
+salarioLiquido = 
+
+print(f"Salario Bruto: {}")
+print(f"Inss Pago: {}")
+print(f"Sindicato Pago: {}")
+print(f"Salario Liquido: {}")
