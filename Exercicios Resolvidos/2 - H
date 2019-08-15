@@ -1,0 +1,12 @@
+pi = 3.14
+raio = float(input("Digite o  raio\n"))
+altura = float(input("Digite a altura\n"))
+
+volume = pi * ( raio ** 2 ) * altura
+print(volume)
+
+calcularLata = int(volume / 5)
+custoLata = calcularLata * 50
+
+print(f"O custo do total de latas foi de : R${custoLata}")
+print(f"A quantidade de latas totais foi de : {calcularLata}")
