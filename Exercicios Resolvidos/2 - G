@@ -1,12 +1,14 @@
-salarioHora = float(input())
-horaTrabalhada = float(input())
+ganhoPorHora = float(input("Digite quanto você ganha por hora: \n"))
+horasTrabalhadas = int(input("Digite quantas horas você trabalhou no mês: \n"))
 
-salarioBruto = salarioHora * horaTrabalhada
-inssPago = 
-sindicatoPago =
-salarioLiquido = 
+ganhoTotal = ganhoPorHora * horasTrabalhadas
+print(f"* Salário bruto: R${ganhoTotal}")
 
-print(f"Salario Bruto: {}")
-print(f"Inss Pago: {}")
-print(f"Sindicato Pago: {}")
-print(f"Salario Liquido: {}")
+custoInss = ganhoTotal * 0.08
+print(f"* Inss: R${custoInss}")
+
+custoSindicato = ganhoTotal * 0.05
+print(f"* Sindicato: R${custoSindicato}")
+
+salarioLiquido = ganhoTotal - custoInss - custoSindicato
+print(f"* Salário Liquido: R${salarioLiquido}")
