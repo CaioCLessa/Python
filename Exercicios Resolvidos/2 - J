@@ -1,0 +1,14 @@
+pi = 3.14
+raio = float(input("Digite o valor do raio: \n"))
+altura = float(input("Digite o valor da altura: \n"))
+
+volumeCilindro = int(pi * (raio ** 2) * altura)
+print(f"O volume do cilíndrico é de {volumeCilindro}")
+
+litroTotal = volumeCilindro * 1000
+
+print(f"O volume da capacidade de litros é de {litroTotal}L")
+
+autonominaCaixaAgua = int(litroTotal / 1350)
+
+print(f"O tempo em horas de autonomia é de {autonominaCaixaAgua} Horas")
